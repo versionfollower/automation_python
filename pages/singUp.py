@@ -5,7 +5,7 @@ class SingUp:
         self.driver = driver
         self.name = ".//input[@name='name']"
         self.phone = ".//input[@name='phone_number']"
-        self.next = ".//span[contains(text(),'Siguiente')]/../../.."
+        self.next = ".//span[contains(text(),'Next')]/../../.."
 
         self.second_step_title = ".//h2/span"
 
